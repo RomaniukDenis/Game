@@ -2,7 +2,7 @@ import './App.css';
 import io from 'socket.io-client';
 import Game from "./components/game/Game";
 
-const socket = io.connect(window.location);
+const socket = io.connect();
 
 function App() {
   return (
