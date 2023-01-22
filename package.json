@@ -1,11 +1,16 @@
 {
-  "name": "game",
+  "name": "Hide and Seek 3D",
+  "description": "Simple 3D hide and seek game",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines":{
+    "node": "16.x.x"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"nodemon app\" \"npm start --prefix frontend\""
+    "start": "node app",
+    "dev": "concurrently \"nodemon app\" \"npm start --prefix frontend\""
   },
   "author": "EasyGames",
   "license": "ISC",
